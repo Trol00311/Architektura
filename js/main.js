@@ -164,6 +164,10 @@ e.forEach(radio=> {  if(radio.checked)
       if(radio.id=="ch1")
       document.getElementById("cx").value=h+cx2;
 
+      if(radio.id=="dh1")
+      document.getElementById("ax").value=h+dx2;
+
+
       if(radio.id=="al1")
       document.getElementById("ax").value=ax1+h;
 
@@ -189,6 +193,9 @@ f.forEach(radio=> {  if(radio.checked)
 
       if(radio.id=="ch2")
       document.getElementById("cx").value=g+cx2;
+      
+      if(radio.id=="dh2")
+      document.getElementById("dx").value=g+dx2;
 
       if(radio.id=="al2")
       document.getElementById("ax").value=ax1+g;
